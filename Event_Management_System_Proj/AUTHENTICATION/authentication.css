@@ -1,0 +1,91 @@
+/* GOOGLE FONT (POPPINS) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* SAME LANG CSS LOGIN AT SIGN UP */
+
+body {
+  background: url('authentication.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+  
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  
+.form-box {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+  .form-box .logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.form-box .logo-box img {
+  width: 35px; /* Adjust the logo size */
+  height: auto;
+}
+
+.form-box .logo-box h2 {
+  font-size: 30px;
+  color: #f05537;
+  margin: 0;
+}
+
+h5{
+  font-size: 35px;
+  margin-bottom:20px;
+ 
+}
+
+h6{
+  font-size:35px;
+  text-align: center;
+  margin-bottom:20px;
+}
+p {
+  text-align:center;
+  margin-top:20px;
+  }
+input {
+  width: 100%;
+  padding:12px;
+  background: #eceaea;
+  border: none;
+  border-radius:6px;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+  margin-bottom:16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #f05537;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+  
+  /* SIZE AND ALIGNMENT NG FORM */
+
+input[type="email"], input[type="password"] {
+  height: 40px;
+  box-sizing: border-box;
+}
+
+  
